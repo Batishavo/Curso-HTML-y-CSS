@@ -1,0 +1,71 @@
+/*
+contenido:#171BFB
+fuente:#6E14E3
+general:#E024FA
+equivalentes:#EB1366
+homero:#FF492E
+*/
+
+body{
+    width:70%;
+    margin:0 auto;
+}
+div{
+    border: 2px solid gray;
+}
+h1{
+    font-family: "'Times New Roman'", Times, serif;
+   /*font-family: Arial, Helvetica, sans-serif;*/
+   /*font-family: 'Courier New', Courier, monospace;*/
+   font-size: 3em;
+   text-align: center;
+   letter-spacing: 4px;
+   text-align: center;
+   text-transform: capitalize;
+    color:white;
+}
+a:hover{
+    color:navy;
+    background-color: white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    background-color: navy;
+    text-decoration: none;
+}
+p{
+    line-height: 1.5em;
+    text-indent: 4em;
+    padding:  0 1em;
+    word-spacing: 0.2em;
+}
+#contenido{
+    background-color: #171BFB;
+
+}
+#general{
+    background-color: pink;
+}
+#equivalentes{
+    background-color:#6E14E3;
+}
+#homero{
+    background-color: #E024FA;
+}
+#origenes{
+    background-color: #EB1366;
+}
+#nacimiento{
+    background-color:#FF492E;
+}
+/****************
+CLASES
+************/
+span.super{vertical-align: super;font-size: 0.6em;}
+span.sub{vertical-align: sub;font-size: 0.6em;}
+span.subrayar{text-decoration: underline;}
+span.tachar{text-decoration: line-through;}
+span.sombra{text-shadow: black 2px 2px 2px;}
+span.negritas{font-weight: bold;}
+span.italicas{font-style: italic;}
